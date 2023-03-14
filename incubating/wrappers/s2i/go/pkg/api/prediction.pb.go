@@ -8,7 +8,7 @@ import (
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
 	_struct "github.com/golang/protobuf/ptypes/struct"
-	framework "github.com/seldonio/seldon-core/incubating/wrappers/s2i/go/pkg/api/tensorflow/core/framework"
+	framework "github.com/midnightconman/seldon-core/incubating/wrappers/s2i/go/pkg/api/tensorflow/core/framework"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"

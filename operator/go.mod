@@ -1,6 +1,8 @@
-module github.com/seldonio/seldon-core/operator
+module github.com/midnightconman/seldon-core/operator
 
 go 1.17
+
+replace github.com/SeldonIO/seldon-core/operator => github.com/midnightconman/seldon-core/operator v1.15.1-0.20230314191854-e319755acee0
 
 require (
 	github.com/emissary-ingress/emissary/v3 v3.1.0

@@ -1,6 +1,8 @@
-module github.com/seldonio/seldon-core/executor
+module github.com/midnightconman/seldon-core/executor
 
 go 1.17
+
+replace github.com/SeldonIO/seldon-core/executor => github.com/midnightconman/seldon-core/executor v1.15.1-0.20230314191854-e319755acee0
 
 require (
 	github.com/cloudevents/sdk-go v1.2.0
